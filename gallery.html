@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery – Shadi Mahal</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="shared.css"/>
+</head>
+<body>
+
+<div id="preloader"><div class="preloader-logo"><svg width="46" height="46" viewBox="0 0 46 46" fill="none"><circle cx="15" cy="23" r="10" stroke="#c9a84c" stroke-width="2" fill="none"/><circle cx="31" cy="23" r="10" stroke="#c9a84c" stroke-width="2" fill="none"/><circle cx="23" cy="21" r="4" fill="#c9a84c" opacity="0.6"/></svg></div><div class="preloader-text">Shadi Mahal</div></div>
+
+<nav class="navbar navbar-expand-lg" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><div class="ring-logo"><svg width="42" height="42" viewBox="0 0 46 46" fill="none"><circle cx="15" cy="23" r="10" stroke="#c9a84c" stroke-width="2" fill="none"/><circle cx="31" cy="23" r="10" stroke="#c9a84c" stroke-width="2" fill="none"/><circle cx="23" cy="21" r="4" fill="#c9a84c" opacity="0.7"/></svg></div><div><span class="brand-name">Shadi Mahal</span><span class="brand-tagline">Pakistani Wedding Planners</span></div></a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><i class="bi bi-list fs-3" style="color:var(--gold)"></i></button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-1">
+        <li class="nav-item ms-2"><a class="nav-link btn-nav" href="index.html">Home</a></li>
+        <li class="nav-item ms-2"><a class="nav-link btn-nav" href="about.html">About</a></li>
+        <li class="nav-item ms-2"><a class="nav-link btn-nav" href="services.html">Services</a></li>
+        <li class="nav-item ms-2"><a class="nav-link active btn-nav" href="gallery.html">Gallery</a></li>
+        <li class="nav-item ms-2"><a class="nav-link btn-nav" href="packages.html">Packages</a></li>
+        <li class="nav-item ms-2"><a class="nav-link btn-nav" href="blog.html">Blog</a></li>
+        <li class="nav-item ms-2"><a class="nav-link btn-nav" href="contact.html">Get Quote</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="page-hero-img" style="background-image:url('https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1600&q=80')"></div>
+  <div class="container page-hero-content">
+    <div class="section-eyebrow">Our Work</div>
+    <h1>Wedding <em>Gallery</em></h1>
+    <p>A glimpse into the beautiful celebrations we've had the honour of creating.</p>
+    <div class="breadcrumb-wrap"><nav><ol class="breadcrumb"><li class="breadcrumb-item"><a href="index.html">Home</a></li><li class="breadcrumb-item active">Gallery</li></ol></nav></div>
+  </div>
+</div>
+
+<section id="gallery" style="padding:100px 0; background:var(--ivory);">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-eyebrow">Visual Stories</div>
+      <h2 class="section-title">Moments of <em>Magic</em></h2>
+      <p class="section-desc">Browse through our portfolio of Pakistani wedding celebrations.</p>
+      <div class="gold-divider"></div>
+    </div>
+
+    <!-- FILTER BUTTONS -->
+    <div class="gallery-filter reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="mehndi">Mehndi</button>
+      <button class="filter-btn" data-filter="barat">Barat</button>
+      <button class="filter-btn" data-filter="walima">Walima</button>
+      <button class="filter-btn" data-filter="decor">Decor</button>
+      <button class="filter-btn" data-filter="bridal">Bridal</button>
+    </div>
+
+    <!-- GALLERY GRID -->
+    <div class="gallery-grid reveal">
+      <div class="gallery-item" data-cat="barat">
+        <img src="images\zuzanka-galczynska-c5_eQi4rrjA-unsplash.jpg" alt="Barat Ceremony"/>
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i><span>Barat</span></div>
+      </div>
+      <div class="gallery-item" data-cat="barat">
+        <img src="images\haseeb-rehman-O8p91eBWc_Y-unsplash.jpg" alt="Barat Ceremony"/>
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i><span>Barat</span></div>
+      </div>
+      <div class="gallery-item" data-cat="mehndi">
+        <img src="images\aenl-weddings-godhydmIwgc-unsplash.jpg" alt="Mehndi Night"/>
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i><span>Mehndi Night</span></div>
+      </div>
+      <div class="gallery-item" data-cat="mehndi">
+        <img src="images\rohit-sharma-DlVEPWJIhvQ-unsplash.jpg" alt="Mehndi Night"/>
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i><span>Mehndi Night</span></div>
+      </div>
+      <div class="gallery-item" data-cat="decor">
+        <img src="images\luigi-pozzoli-34Xicn82lY4-unsplash.jpg" alt="Floral Decor"/>
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i><span>Floral Decor</span></div>
+      </div>
+      <div class="gallery-item" data-cat="decor">
+        <img src="images\omar-rodriguez-XYuNwlYtfLI-unsplash.jpg" alt="Stage Decor"/>
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i><span>Stage Decor</span></div>
+      </div>
+      <div class="gallery-item" data-cat="decor">
+        <img src="images\evelina-friman-hw_sKmjb0ns-unsplash.jpg" alt="Floral Decor"/>
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i><span>Floral Decor</span></div>
+      </div>
+      <div class="gallery-item" data-cat="decor">
+        <img src="images\michu-dang-quang-unItqGJIlRY-unsplash.jpg" alt="Floral Decor"/>
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i><span>Floral Decor</span></div>
+      </div>
+      <div class="gallery-item" data-cat="bridal">
+        <img src="images\pakistani-wedding-banner.jpg" alt="Bridal Portrait"/>
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i><span>Bridal</span></div>
+      </div>
+      <div class="gallery-item" data-cat="walima">
+        <img src="images\aakifah-shaikh-A--OZVONuGE-unsplash.jpg" alt="Walima Reception"/>
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i><span>Walima</span></div>
+      </div>
+      <div class="gallery-item" data-cat="decor">
+        <img src="images\navigation.jpg" alt="Stage Decor"/>
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i><span>Stage Decor</span></div>
+      </div>
+      
+      <div class="gallery-item" data-cat="mehndi">
+        <img src="images\amish-thakkar-BEdxXAiRfRM-unsplash.jpg" alt="Mehndi Art"/>
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i><span>Mehndi Art</span></div>
+      </div>
+      <div class="gallery-item" data-cat="barat">
+        <img src="images\haseeb-rehman-BjiWTprrDxY-unsplash.jpg" alt="Barat Night"/>
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i><span>Barat Night</span></div>
+      </div>
+      <div class="gallery-item" data-cat="bridal">
+        <img src="https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Couple Portrait"/>
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i><span>Couple</span></div>
+      </div>
+      <div class="gallery-item" data-cat="walima">
+        <img src="images\zohair-mirza-l6BafhpDlZM-unsplash.jpg" alt="Walima Setup"/>
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i><span>Walima Setup</span></div>
+      </div>
+      <div class="gallery-item" data-cat="walima">
+        <img src="images\jeremy-wong-weddings-K8KiCHh4WU4-unsplash.jpg" alt="Walima Setup"/>
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i><span>Walima Setup</span></div>
+      </div>
+      <div class="gallery-item" data-cat="mehndi">
+        <img src="images\raj-rana--7arhYAUEOg-unsplash.jpg" alt="Mehndi Decor"/>
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i><span>Mehndi Decor</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- LIGHTBOX -->
+<div class="lightbox-overlay" id="lightbox">
+  <span class="lightbox-close" id="lightboxClose">&times;</span>
+  <img src="" alt="Gallery Image" class="lightbox-img" id="lightboxImg"/>
+</div>
+
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-3 col-md-6">
+        <div class="footer-brand"><a class="navbar-brand" href="index.html"><svg width="36" height="36" viewBox="0 0 46 46" fill="none"><circle cx="15" cy="23" r="10" stroke="#c9a84c" stroke-width="2" fill="none"/><circle cx="31" cy="23" r="10" stroke="#c9a84c" stroke-width="2" fill="none"/><circle cx="23" cy="21" r="4" fill="#c9a84c" opacity="0.7"/></svg><div class="ms-2"><span class="brand-name">Shadi Mahal</span><span class="brand-tagline">Pakistani Wedding Planners</span></div></a></div>
+        <p class="footer-desc">"Where dreams become memories and traditions come alive."</p>
+        <div class="footer-socials"><a href="#"><i class="bi bi-facebook"></i></a><a href="#"><i class="bi bi-instagram"></i></a><a href="#"><i class="bi bi-youtube"></i></a><a href="#"><i class="bi bi-whatsapp"></i></a></div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="footer-heading">Quick Links</div>
+        <ul class="footer-links">
+          <li><a href="index.html"><i class="bi bi-chevron-right"></i>Home</a></li>
+          <li><a href="about.html"><i class="bi bi-chevron-right"></i>About Us</a></li>
+          <li><a href="services.html"><i class="bi bi-chevron-right"></i>Services</a></li>
+          <li><a href="gallery.html"><i class="bi bi-chevron-right"></i>Gallery</a></li>
+          <li><a href="packages.html"><i class="bi bi-chevron-right"></i>Packages</a></li>
+          <li><a href="contact.html"><i class="bi bi-chevron-right"></i>Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="footer-heading">Ceremonies</div>
+        <ul class="footer-links">
+          <li><a href="#"><i class="bi bi-chevron-right"></i>Mayun / Haldi</a></li>
+          <li><a href="#"><i class="bi bi-chevron-right"></i>Mehndi Night</a></li>
+          <li><a href="#"><i class="bi bi-chevron-right"></i>Nikkah Ceremony</a></li>
+          <li><a href="#"><i class="bi bi-chevron-right"></i>Barat Day</a></li>
+          <li><a href="#"><i class="bi bi-chevron-right"></i>Walima Reception</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="footer-heading">Contact</div>
+        <p style="font-size:.88rem;color:rgba(255,255,255,.5)"><i class="bi bi-telephone me-2" style="color:var(--gold)"></i>+92 300 1234567</p>
+        <p style="font-size:.88rem;color:rgba(255,255,255,.5)"><i class="bi bi-envelope me-2" style="color:var(--gold)"></i>info@shadimahal.pk</p>
+        <p style="font-size:.88rem;color:rgba(255,255,255,.5)"><i class="bi bi-geo-alt me-2" style="color:var(--gold)"></i>Gulberg III, Lahore, Pakistan</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 <a href="#">Shadi Mahal</a>. All rights reserved. Made with <i class="bi bi-heart-fill" style="color:var(--gold)"></i> in Pakistan.</p>
+      <div style="display:flex;gap:16px;flex-wrap:wrap"><a href="#" style="font-size:.75rem;color:rgba(255,255,255,.35);text-decoration:none">Privacy Policy</a><a href="#" style="font-size:.75rem;color:rgba(255,255,255,.35);text-decoration:none">Terms of Service</a></div>
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" title="Back to top"><i class="bi bi-chevron-up"></i></button>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="shared.js"></script>
+</body>
+</html>
